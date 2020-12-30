@@ -11,6 +11,10 @@ import AudioContext from '../libs/AudioContext'
 import AudioPlayer from '../libs/AudioPlayer'
 import VisualizerMain from '../libs/Visualizer'
 
+const Analyser = AudioContext.getAnalyser();
+
+export { AudioContext, Analyser };
+
 export default class ReactMic extends Component {
   constructor(props) {
     super(props)

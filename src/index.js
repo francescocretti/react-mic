@@ -1,3 +1,3 @@
-import ReactMic from './components/ReactMic';
+import ReactMic, { AudioContext, Analyser } from './components/ReactMic';
 
-export { ReactMic };
+export { ReactMic, AudioContext, Analyser };
