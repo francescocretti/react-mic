@@ -72,7 +72,7 @@ export default class ReactMic extends Component {
         canvas: canvas,
         canvasCtx: canvasCtx
       }, () => {
-        this.visualize()
+        // this.visualize()
       })
     }
   }
@@ -103,6 +103,9 @@ export default class ReactMic extends Component {
 
     if (record) {
       if (microphoneRecorder) {
+        console.log('start recording');
+        AudioContext.initAnalyzer();
+        this.visualize();
         microphoneRecorder.startRecording()
       }
     } else {
