@@ -1,7 +1,17 @@
-# @cleanderson/react-mic
+# @francescocretti/react-mic
+### Fork from [@cleandersonlobo/react-mic](https://github.com/cleandersonlobo/react-mic)
+#### That is in turn a wrapper component for [react-mic](https://github.com/hackingbeauty/react-mic)
 
-### Wrapper component for [react-mic](https://github.com/hackingbeauty/react-mic)
+---
 
+## Fixes/improvements in @francescocretti/react-mic
+
+* `visualize()` method is called only when recording starts, preventing an empty drawing before the actual recording, and fixing the facts that the visualization does not work for a second recording 
+* `AudioContext` and `Analyser` are exported by the module, allowing customizations such as a different visualization (e.g. a simple peak meter)
+
+---
+
+# Original REDME
 
 ## What's new - @cleandersonlobo/react-mic
 
