@@ -1,11 +1,16 @@
 {
-  "name": "@francescocretti/react-mic",
+  "name": "@mezzo-forte/react-mic",
   "version": "1.2.0",
   "description": "Record audio from your microphone in WAV or MP3 and display as a sound oscillation (wrapper react-mic)",
   "author": "Cleanderson Lobo",
-  "contributors": ["Francesco Cretti"],
+  "contributors": [
+    "Francesco Cretti"
+  ],
   "license": "MIT",
-  "repository": "https://github.com/francescocretti/react-mic",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francescocretti/react-mic.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -64,9 +69,14 @@
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^1.6.2",
     "rollup-plugin-url": "^1.4.0",
-    "msr": "https://github.com/cleandersonlobo/MediaStreamRecorder.git"
+    "msr": "git+https://github.com/cleandersonlobo/MediaStreamRecorder.git"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/francescocretti/react-mic/issues"
+  },
+  "homepage": "https://github.com/francescocretti/react-mic#readme",
+  "dependencies": {}
 }
